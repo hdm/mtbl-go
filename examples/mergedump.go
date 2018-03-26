@@ -3,7 +3,7 @@ package main
 import "fmt"
 import "os"
 
-import "github.com/fathom6/golang-mtbl"
+import "github.com/hdm/golang-mtbl"
 
 func mergeFunc(key []byte, val0 []byte, val1 []byte) (mergedVal []byte) {
 	return []byte(string(val0) + " + " + string(val1))

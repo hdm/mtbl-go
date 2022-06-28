@@ -1,10 +1,12 @@
 package main
 
-import "fmt"
-import "log"
-import "os"
+import (
+	"fmt"
+	"log"
+	"os"
 
-import "github.com/hdm/golang-mtbl"
+	"github.com/hdm/mtbl-go"
+)
 
 func mergeFunc(key []byte, val0 []byte, val1 []byte) (mergedVal []byte) {
 	return []byte(string(val0) + " + " + string(val1))

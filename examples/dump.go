@@ -1,9 +1,11 @@
 package main
 
-import "fmt"
-import "os"
+import (
+	"fmt"
+	"os"
 
-import "github.com/hdm/golang-mtbl"
+	"github.com/hdm/mtbl-go"
+)
 
 func main() {
 	if len(os.Args) != 2 {
